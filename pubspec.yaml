@@ -1,0 +1,28 @@
+name: agua_alerta
+description: App para reportes de falta de agua potable - Parcial Desarrollo de Aplicaciones Móviles
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'     
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+  http: ^1.2.2
+  go_router: ^14.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  riverpod_generator: ^2.4.0
+  build_runner: ^2.4.12
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
